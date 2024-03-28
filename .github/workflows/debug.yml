@@ -19,8 +19,7 @@ on:
 
 jobs:
   echo:
-    runs-on: inputs.envLevel
+    runs-on: ${{ inputs.envLevel}}
     steps:
     - name: Run a one-line script
-#      if : inputs.envLevel == 'dev' 
-      run: echo Hello, dev!
+      run: echo Hello, ${{ inputs.envLevel}}!
