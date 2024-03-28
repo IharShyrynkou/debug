@@ -1,4 +1,4 @@
-name:  AUTOMATED | Dev Database Deploy
+name:  dev call
 
 on:   
   workflow_call:
