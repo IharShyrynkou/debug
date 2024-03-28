@@ -1,0 +1,12 @@
+name:  stage call
+
+on:   
+  workflow_call:
+  
+jobs:
+  echo:
+    runs-on: stage
+    steps:
+    - name: Run a one-line script
+#      if : inputs.envLevel == 'stage' 
+      run: echo Hello, stage!
