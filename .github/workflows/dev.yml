@@ -1,0 +1,12 @@
+name:  AUTOMATED | Dev Database Deploy
+
+on:   
+  workflow_call:
+  
+jobs:
+  echo:
+    runs-on: dev
+    steps:
+    - name: Run a one-line script
+#      if : inputs.envLevel == 'dev' 
+      run: echo Hello, dev!
