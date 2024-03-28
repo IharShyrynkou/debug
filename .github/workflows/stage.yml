@@ -5,7 +5,7 @@ on:
   
 jobs:
   echo:
-    runs-on: stage
+    runs-on: home
     steps:
     - name: Run a one-line script
 #      if : inputs.envLevel == 'stage' 
